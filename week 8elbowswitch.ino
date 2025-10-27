@@ -1,7 +1,7 @@
 // Elbow-activated switch with LED
 
 const int switchPin = 2;   // Pin connected to Coin A
-const int ledPin = 13;     // Pin connected to LED (built-in or external)
+const int ledPin = 13;     // Pin connected to LED 
 
 void setup() {
   // Set Pin 2 as input with internal pull-up resistor
@@ -25,6 +25,6 @@ void loop() {
     digitalWrite(ledPin, LOW);   // Turn LED OFF
   }
 
-  // Small delay for stability (optional)
+  // Small delay for stability 
   delay(50);
 }
